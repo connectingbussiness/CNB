@@ -9,6 +9,7 @@ import { isNullOrUndefined } from 'util';
 export class User1Component implements OnInit {
   public name:any;
   public receiver:any;
+  public filter:any;
   constructor(private globalService:GlobalService) { }
 
   ngOnInit() {
